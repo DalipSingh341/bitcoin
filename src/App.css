@@ -1,38 +1,439 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+  text-decoration: none !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg_nav {
+  background-image: url(./assets/png/hero_bg_image3.png);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ml_52 {
+  margin-left: 52px;
 }
+.hero_text2 {
+  max-width: 766px;
+  text-transform: uppercase !important;
+}
+.nav_text{
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.nav_text:after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: yellow;
+  position: absolute;
+  display: block;
+  bottom: 0%;
+  left: 50%;
+  transition: all 200ms ease-in-out;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}.nav_text:hover:after{
+  width: 100%;left: 0%;
+ 
+}
+.menu_icon{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav_text:hover{
+color: yellow !important;
+}
+.insta {
+  transition: all 200ms ease-in-out;
+}
+.insta1:hover svg path {
+  fill: yellow;
+}
+.instagram {
+  transition: all 200ms ease-in-out;
+}
+.instagram:hover {
+  transform: translatey(-10px);
+}
+.hero_para1 {
+  max-width: 750px;
+}
+.Singup_btn1 {
+  padding: 16px 50px;
+  border-radius: 35px;
+  background: var(--primary, #2091f9);
+}
+.Singup_btn2 {
+  padding: 16px 75px;
+  border-radius: 35px;
+  background: var(--text, #fff);
+  transition: all 200ms ease-in-out;
+}
+.Singup_btn2:hover {
+  color: white !important;
+  background: var(--primary, #2091f9);
+}
+.hero_text3 {
+  max-width: 117px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* invest-1 */
+.Invest_para1 {
+  max-width: 1083px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-1 {
+  width: 255px;
+  transition: all 200ms ease-in-out;
+}
+.card-1:hover {
+  box-shadow: 0px 0px 2px 2px #b2c3c3;
+  transform: scale(1.1);
+  border-radius: 24px;
+  cursor: pointer;
+}
+.Invest_para2 {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* invest-1 */
+/* invest-2 */
+.slick-center {
+  transform: scale(1.2);
+  transition: all 200ms ease-in-out;
+}
+.axon2 {
+  cursor: pointer;
+  border-radius: 34px;
+}
+.full_screen{
+  border-radius: 14px;
+  padding: 8px 15px;
+  border: 1px solid #2091f9;
+   background-color: #2091f9;
+   color: white;
+}
+.full_screen:hover{
+  background-color: blue
+}
+.blue_btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* invest-2 */
+/* invest-3 */
+.invest3_text1 {
+  max-width: 468px;
+}
+.invest3_para1 {
+  max-width: 530px;
+}
+.macbook1{
+  animation: mymove 5s ease infinite;
+  position: relative;
+  z-index: -1;
+}
+@keyframes mymove {
+  0% {
+    top: 0px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  50% {
+    top: 20px;
+  }
+  
+  100% {
+    top: 0px;
   }
 }
+/* invest-3 */
+/* invest-4 */
+.thumb2 {
+  border-radius: 35px;
+}
+.cp {
+  cursor: pointer;
+}
+.girl_1{
+  transition: all 200ms ease-in-out;
+}
+.girl_1:hover{
+  transform: scale(1.1)
+}
+.play_girl_btn {
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+}
+.ThumbPara1 {
+  max-width: 575px;
+}
+.masterbtn {
+  padding: 19px 38px;
+  border-radius: 35px;
+  border: 1px solid #2091f9;
+  background: #2091f9;
+  transition: all 200ms ease-in-out;
+}
+.masterbtn:hover {
+  background: #fff;
+  color: #2091f9 !important;
+}
+/* invest-4 */
+
+/* invest-5*/
+.Lite_para1 {
+  max-width: 976px;
+}
+.bitcoin1 {
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.bitcoin1:hover {
+  transform: scale(1.1);
+}
+
+/* invest-5*/
+/* invest-6*/
+.leo_para1 {
+  max-width: 976px;
+}
+.text_uppercase {
+  text-transform: uppercase;
+}
+.blue_card {
+  padding: 29px 36px 20px 17px;
+  width: 320px;
+  height: 350px;
+  border-radius: 12px;
+  background: #252b42;
+  box-shadow: 0px 0px 20px 0px rgba(26, 116, 199, 0.25);
+}
+.blue_card2 {
+  padding: 29px 16px 20px 17px;
+  width: 320px;
+  height: 350px;
+  border-radius: 12px;
+  background: #252b42;
+  box-shadow: 0px 0px 20px 0px rgba(26, 116, 199, 0.25);
+}
+.leo_para2 {
+  max-width: 247px;
+}
+.slick-dots li button:before {
+  font-size: 22px !important;
+  color: rgb(26, 116, 199) !important;
+  opacity: 1 !important;
+  /* color: rgb(37,43,66)!important; */
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: rgb(37, 43, 66) !important;
+}
+.slick-dots {
+  bottom: -70px !important;
+}
+/* invest-6*/
+/* invest-7*/
+.Standard_bg {
+  background-color: rgba(37, 43, 66, 1);
+}
+.StandardPara1 {
+  max-width: 1042px;
+}
+.Stand_card1 {
+  width: 335px;
+  cursor: pointer;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #dedede;
+  background: var(--light-background, #fff);
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  transition: all 200ms ease-in-out;
+}
+.Stand_card1:hover {
+  border-radius: 10px;
+  background: var(--primary, #2091f9);
+  transform: scale(1.1);
+}
+.Stand_card1:hover .order_now_btn {
+  color: var(--primary, #2091f9) !important;
+  background: var(--light-background, #fff);
+}
+.Stand_card1:hover .standard_ulText {
+  color: var(--primary, #fff) !important;
+}
+.standard_ulText {
+  color: var(--dark-background, #252b42);
+  transition: all 200ms ease-in-out;
+}
+.StandPara2 {
+  max-width: 147px;
+}
+
+.order_now_btn {
+  padding: 18px 38px;
+  border-radius: 35px;
+  background: var(--primary, #2091f9);
+  transition: all 200ms ease-in-out;
+}
+/* invest-7*/
+/* invest-8 */
+.handboy_text {
+  max-width: 1042px;
+}
+.handboy_input {
+  padding-top: 46px;
+  padding-bottom: 45px;
+  padding-left: 41px;
+  border-radius: 35px;
+  border: 1px solid rgba(37, 43, 66, 0.33);
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(32, 145, 249, 0.1);
+  outline: none;
+}
+.handboy_btn {
+  padding: 21px 80px;
+  border-radius: 35px;
+  background: #2091f9;
+  border: 1px solid #2091f9;
+  transition: all 200ms ease-in-out;
+}
+.handboy_btn:hover {
+  background: #fff;
+  color: #2091f9 !important;
+}
+/* invest-8 */
+/* footer  */
+.footer_para1 {
+  max-width: 307px;
+}
+.exmple_border {
+  border-bottom: 1px solid white;
+}
+
+/* footer  */
+/* nav_bar */
+input[type="checkbox"] {
+    display: none;
+}
+
+@media (max-width:992px) {
+    .nav_bar {
+        color: #FFFFFF;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: rgba(59, 59, 59, 1);
+        transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        z-index: 1;
+    }
+
+
+    label[for="menubox"] {
+        width: 35px;
+        height: 40px;
+        z-index: 11;
+        position: fixed;
+        right: 1px;
+        top: 30px;
+    }
+
+    label>span {
+        width: 100%;
+        height: 3px;
+        display: flex;
+        margin-bottom: 6px;
+        background: white;
+        border-radius: 20px;
+        z-index: 11;
+
+    }
+
+    
+}
+
+.show {
+    left: 0;
+}
+/* nav_bar */
+@media (min-width: 320px) {
+  .line1 {
+    width: 100%;
+    height: 2px;
+    background: #252b42;
+  }
+  .Singup_btn1 {
+    padding: 16px 40px;
+    border-radius: 35px;
+    background: var(--primary, #2091f9);
+  }
+  .Singup_btn2 {
+    padding: 16px 60px;
+    border-radius: 35px;
+    background: var(--text, #fff);
+  }
+}
+@media (min-width: 576px) {
+  .Singup_btn1 {
+    padding: 16px 40px;
+  }
+  .Singup_btn2 {
+    padding: 16px 50px;
+  }
+}
+@media (min-width: 768px) {
+  .Singup_btn1 {
+    padding: 16px 45px;
+  }
+  .Singup_btn2 {
+    padding: 16px 65px;
+  }
+}
+@media (min-width: 992px) {
+  .ml_80 {
+  margin-left: 80px;
+}
+  .ml_116 {
+  margin-left: 116px;
+}
+  .line1 {
+    width: 679px;
+    height: 2px;
+    background: #252b42;
+  }
+  .Singup_btn1 {
+    padding: 16px 50px;
+  }
+  .Singup_btn2 {
+    padding: 16px 75px;
+  }
+}
+
+

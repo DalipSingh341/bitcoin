@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import { Fragment } from "react";
 
+import ScrollButton from "./components/ScrollButton";
+import "./App.css";
+import "./assets/Root.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import BitcoinNav from "./components/BitcoinNav";
+import HeroSection from "./components/HeroSection";
+import InvestCoin1 from "./components/InvestCoin1";
+import InvestCoin2 from "./components/InvestCoin2";
+import InvestCoinC from "./components/InvestCoinC";
+import LiteCoin from "./components/LiteCoin";
+import Leo from "./components/Leo";
+import Standard from "./components/Standard";
+import Footer from "./components/Footer";
+import ThumbBoy from "./components/ThumbBoy";
+import HandBoy from "./components/HandBoy";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+   useEffect(() => {
+     AOS.init();
+   }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Fragment>
+        <div className="overflow-hidden">
+          <div className="bg_nav ">
+            <BitcoinNav />
+            <HeroSection />
+          </div>
+          <InvestCoin1 />
+          <InvestCoin2 />
+          <InvestCoinC />
+          <ThumbBoy />
+          <LiteCoin />
+          <Leo />
+          <Standard />
+          <HandBoy />
+          <Footer />
+        </div>
+          <ScrollButton />
+      </Fragment>
+    </>
   );
 }
 
