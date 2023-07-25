@@ -51,7 +51,7 @@ const ThumbBoy = () => {
       <Container className="py-4">
         <Row>
           <Col data-aos-duration="3000" data-aos="fade-right" lg={7}>
-            <div className="d-flex flex-column flex-md-row py-3 py-md-5">
+            <div className="d-flex flex-column flex-md-row py-3 py-md-5 gap-md-3">
               <img src={thumb1} alt="thumb1" />
               <div className="overflow-hidden mt-4 position-relative cp girl_1">
                 <div
@@ -62,7 +62,7 @@ const ThumbBoy = () => {
                 </div>
                 <img className="w-100 thumb2 " src={thumb2} alt="thumb2" />
               </div>
-              <div className="overflow-hidden mt-5 ms-md-4 position-relative cp girl_1">
+              <div className="overflow-hidden mt-5  position-relative cp girl_1">
                 <img
                   className="w-100 thumb2 mt-md-3"
                   src={thumb3}

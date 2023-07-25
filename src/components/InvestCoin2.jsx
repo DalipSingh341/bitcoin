@@ -18,10 +18,10 @@ export default function SimpleSlider() {
     centerMode: true,
     centerPadding: "-170px",
     slidesToShow: 2.5,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1200,
     arrows: false,
     autoplay: true,
-    speed:2000,
+    speed:1000,
     responsive: [
       {
         breakpoint: 992,

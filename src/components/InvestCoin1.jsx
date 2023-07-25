@@ -1,9 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import slate1 from "../assets/png/slate1.png";
-import slate2 from "../assets/png/slate2.png";
-import slate3 from "../assets/png/slate3.png";
-
+import scale1 from "../assets/svg/scale1.svg"
+import scale2 from "../assets/svg/scale2.svg"
+import scale3 from "../assets/svg/scale3.svg"
 const InvestCoin1 = () => {
   return (
     <>
@@ -38,7 +37,7 @@ const InvestCoin1 = () => {
                 className=" d-flex justify-content-center justify-md-content-end"
               >
                 <div className="card-1 mt-3 d-flex flex-column ">
-                  <img className="" src={slate1} alt="slate1" />
+                  <img src={scale1} alt="scale1" />
                   <h2 className="ff_open_sans fs_20 fw_700 color_252 mb-0 pt-2 pb-3 text-center">
                     Надежность
                   </h2>
@@ -57,7 +56,7 @@ const InvestCoin1 = () => {
                 className=" d-flex justify-content-center"
               >
                 <div className="card-1 mt-3 d-flex flex-column ">
-                  <img className="" src={slate2} alt="slate2" />
+                  <img src={scale2} alt="scale2" />
                   <h2 className="ff_open_sans fs_20 fw_700 color_252 mb-0 pt-2 pb-3 text-center">
                     Опыт
                   </h2>
@@ -76,7 +75,7 @@ const InvestCoin1 = () => {
                 className=" d-flex justify-content-center justify-md-content-start"
               >
                 <div className="card-1 mt-3 d-flex flex-column ">
-                  <img className="" src={slate3} alt="slate3" />
+                  <img src={scale3} alt="scale3" />
                   <h2 className="ff_open_sans fs_20 fw_700 color_252 mb-0 pt-2 pb-3 text-center">
                     Прозрачность
                   </h2>

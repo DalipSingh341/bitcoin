@@ -31,12 +31,12 @@ const HeroSection = () => {
             </p>
             <div className="d-flex flex-column flex-sm-row my-3">
               <div>
-                <Link className="ff_open_sans fs_20 fw_700 fc_white Singup_btn1 my-2  d-inline-block masterbtn">
+                <Link className="ff_open_sans fs_20 fw_700 fc_white  my-2  d-inline-block masterbtn">
                   Присоединиться
                 </Link>
               </div>
               <div>
-                <Link className="ff_open_sans fs_20 fw_700 color_252 Singup_btn2  d-inline-block my-2 ms-sm-2 ms-lg-5">
+                <Link className="ff_open_sans fs_20 fw_700 color_252 masterbtn2  d-inline-block my-2 ms-sm-2 ms-lg-5">
                   Подробнее
                 </Link>
               </div>

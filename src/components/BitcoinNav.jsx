@@ -31,32 +31,44 @@ const BitcoinNav = () => {
               className={
                 first
                   ? "d-flex nav_bar mb-0 "
-                  : " d-flex nav_bar show mb-0  gap-lg-5"
+                  : " d-flex nav_bar show mb-0 gap-lg-5"
               }
             >
               <li className="ml_116">
-                <Link className="ff_open_sans fs_22 fw_300 fc_white nav_text">
+                <Link onClick={() => {
+                  setFirst(true);
+                }} className="ff_open_sans fs_22 fw_300 fc_white nav_text">
                   Особенности
                 </Link>
               </li>
               <li className="ml_80">
-                <Link className="ff_open_sans fs_22 fw_300 fc_white nav_text">
+                <Link onClick={() => {
+                  setFirst(true);
+                }} className="ff_open_sans fs_22 fw_300 fc_white nav_text">
                   Отзывы
                 </Link>
               </li>
               <li className="ml_80">
-                <Link className="ff_open_sans fs_22 fw_300 fc_white nav_text">
+                <Link onClick={() => {
+                  setFirst(true);
+                }} className="ff_open_sans fs_22 fw_300 fc_white nav_text">
                   Инвестиция
                 </Link>
               </li>
               <li className="d-flex d-lg-none justify-content-between gap-3">
-                <Link className="instagram">
+                <Link onClick={() => {
+                  setFirst(true);
+                }} className="instagram">
                   <Instagram />
                 </Link>
-                <Link className="instagram">
+                <Link onClick={() => {
+                  setFirst(true);
+                }} className="instagram">
                   <Telegram />
                 </Link>
-                <Link className="instagram">
+                <Link onClick={() => {
+                  setFirst(true);
+                }} className="instagram">
                   <Whatsapp />
                 </Link>
               </li>

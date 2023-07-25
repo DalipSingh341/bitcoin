@@ -89,7 +89,7 @@ color: yellow !important;
   transition: all 200ms ease-in-out;
 }
 .card-1:hover {
-  box-shadow: 0px 0px 2px 2px #b2c3c3;
+  box-shadow: 0px 0px 5px 5px rgb(41, 224, 230);
   transform: scale(1.1);
   border-radius: 24px;
   cursor: pointer;
@@ -135,7 +135,7 @@ color: yellow !important;
   max-width: 530px;
 }
 .macbook1{
-  animation: mymove 5s ease infinite;
+  animation: mymove 1.5s  infinite ease;
   position: relative;
   z-index: -1;
 }
@@ -176,16 +176,47 @@ color: yellow !important;
   max-width: 575px;
 }
 .masterbtn {
-  padding: 19px 38px;
-  border-radius: 35px;
+   color: #fff;
   border: 1px solid #2091f9;
+  border-radius: 35px;
+  padding: 19px 38px;
+  background-image: -webkit-linear-gradient(30deg, #2091f9 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #2091f9 50%, transparent 50%);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  /* 
   background: #2091f9;
-  transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; */
 }
 .masterbtn:hover {
-  background: #fff;
+  background-position: 100%;
   color: #2091f9 !important;
 }
+.masterbtn2 {
+   color: #fff;
+  border: 1px solid #2091f9;
+  border-radius: 35px;
+  padding: 19px 75px;
+  background-image: -webkit-linear-gradient(30deg, #2091f9 50%, transparent 50%);
+  background-image: linear-gradient(30deg, white 50%, transparent 50%);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  /* 
+  background: #2091f9;
+  transition: all 200ms ease-in-out; */
+}
+.masterbtn2:hover {
+  background-position: 100%;
+  color:white !important;
+}
+
+
 /* invest-4 */
 
 /* invest-5*/
@@ -233,19 +264,7 @@ color: yellow !important;
   opacity: 1 !important;
   /* color: rgb(37,43,66)!important; */
 }
-.slick-dots li button {
-  font-size: 0;
-  line-height: 0;
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 5px;
-  cursor: pointer;
-  color: transparent;
-  border: 0;
-  outline: none;
-  border-radius: 50%;
-}
+
 .slick-dots li.slick-active button:before {
   opacity: 1 !important;
   color: rgb(37, 43, 66) !important;
@@ -261,19 +280,50 @@ color: yellow !important;
 .StandardPara1 {
   max-width: 1042px;
 }
+.masterbox3 {
+   color: #fff;
+  border: 1px solid #2091f9;
+  border-radius: 35px;
+  padding: 19px 75px;
+  background-image: -webkit-linear-gradient(30deg, #2091f9 50%, transparent 50%);
+  background-image: linear-gradient(30deg, white 50%, transparent 50%);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  /* 
+  background: #2091f9;
+  transition: all 200ms ease-in-out; */
+}
+.masterbox3:hover {
+  background-position: 100%;
+  color:white !important;
+}
 .Stand_card1 {
   width: 335px;
   cursor: pointer;
   padding: 40px;
   border-radius: 10px;
   border: 1px solid #dedede;
-  background: var(--light-background, #fff);
+
+  background: var(--primary, #2091f9);
+  background-image: -webkit-linear-gradient(30deg, #2091f9 50%, transparent 50%);
+  background-image: linear-gradient(30deg, white  50%, transparent 50%);
+  background-size: 1700px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+
+  
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
-  transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; 
 }
 .Stand_card1:hover {
+  
+  background-position: 100%;
   border-radius: 10px;
-  background: var(--primary, #2091f9);
   transform: scale(1.1);
 }
 .Stand_card1:hover .order_now_btn {
@@ -303,8 +353,8 @@ color: yellow !important;
   max-width: 1042px;
 }
 .handboy_input {
-  padding-top: 46px;
-  padding-bottom: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 41px;
   border-radius: 35px;
   border: 1px solid rgba(37, 43, 66, 0.33);

@@ -30,7 +30,7 @@ const InvestCoinC = () => {
               Нажмите на кнопку ниже и узнайте все лично от наших менеджеров
             </p>
             <div className="mt-md-5">
-              <Link className="ff_open_sans fs_20 fw_700 fc_white Singup_btn1 my-2  d-inline-block masterbtn">
+              <Link className="ff_open_sans fs_20 fw_700 fc_white  my-2  d-inline-block masterbtn">
                 Узнать подробнее
               </Link>
             </div>
