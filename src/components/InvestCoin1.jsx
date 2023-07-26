@@ -29,7 +29,7 @@ const InvestCoin1 = () => {
             </p>
             <Row className="justify-content-center">
               <Col
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos="fade-down"
                 sm={6}
                 md={4}
@@ -48,7 +48,7 @@ const InvestCoin1 = () => {
                 </div>
               </Col>
               <Col
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos="fade-down"
                 sm={6}
                 md={4}
@@ -67,7 +67,7 @@ const InvestCoin1 = () => {
                 </div>
               </Col>
               <Col
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos="fade-down"
                 sm={6}
                 md={4}

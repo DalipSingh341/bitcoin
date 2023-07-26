@@ -14,7 +14,7 @@ const Standard = () => {
           начнет уверенно шагать по нему.
         </p>
         <Row className="justify-content-center align-items-center">
-          <Col data-aos-duration="3000" data-aos="fade-down" md={6} lg={6} xl={4} className="mt-4">
+          <Col data-aos-duration="1000" data-aos="fade-down" md={6} lg={6} xl={4} className="mt-4">
             <div className="d-flex align-items-center justify-content-center">
               <div className="Stand_card1 ">
                 <h2 className="ff_open_sans fs_20 fw_700  color_252 mb-0 text-center standard_ulText ">
@@ -60,7 +60,7 @@ const Standard = () => {
               </div>
             </div>
           </Col>
-          <Col data-aos-duration="3000" data-aos="fade-down" md={6} lg={6} xl={4} className="mt-4">
+          <Col data-aos-duration="1000" data-aos="fade-down" md={6} lg={6} xl={4} className="mt-4">
             <div className="d-flex align-items-center justify-content-center">
               <div className="Stand_card1">
                 <h2 className="ff_open_sans standard_ulText fs_20 fw_700  color_252 mb-0 text-center ">
@@ -106,7 +106,7 @@ const Standard = () => {
               </div>
             </div>
           </Col>
-          <Col data-aos-duration="3000" data-aos="fade-down" md={6} lg={6} xl={4} className="mt-4">
+          <Col data-aos-duration="1000" data-aos="fade-down" md={6} lg={6} xl={4} className="mt-4">
             <div className="d-flex align-items-center justify-content-center">
               <div className="Stand_card1">
                 <h2 className="ff_open_sans standard_ulText fs_20 fw_700  color_252 mb-0 text-center ">

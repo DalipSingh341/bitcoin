@@ -77,7 +77,7 @@ const Leo = () => {
 
         <div className="py-5">
           <Slider2 {...settings} className=" px-md-5 ">
-            <div  data-aos-duration="3000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
+            <div  data-aos-duration="1000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
               <div className="blue_card cp ">
                 <div className="d-flex align-items-center mb-3 ">
                   <img src={leo} alt="leo" />
@@ -107,7 +107,7 @@ const Leo = () => {
                 </p>
               </div>
             </div>
-            <div  data-aos-duration="3000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
+            <div  data-aos-duration="1000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
               <div className="blue_card2 cp">
                 <div className="d-flex align-items-center mb-3 ">
                   <img src={leo} alt="leo" />
@@ -143,7 +143,7 @@ const Leo = () => {
                 </div>
               </div>
             </div>
-            <div  data-aos-duration="3000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
+            <div  data-aos-duration="1000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
               <div className="blue_card2 ">
                 <div className="d-flex align-items-center mb-3 ">
                   <img src={leo} alt="leo" />
@@ -179,7 +179,7 @@ const Leo = () => {
                 </div>
               </div>
             </div>
-            <div  data-aos-duration="3000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
+            <div  data-aos-duration="1000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
               <div className="blue_card cp">
                 <div className="d-flex align-items-center mb-3 ">
                   <img src={leo} alt="leo" />
@@ -209,7 +209,7 @@ const Leo = () => {
                 </p>
               </div>
             </div>
-            <div  data-aos-duration="3000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
+            <div  data-aos-duration="1000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
               <div className="blue_card2 cp">
                 <div className="d-flex align-items-center mb-3 ">
                   <img src={leo} alt="leo" />
@@ -245,7 +245,7 @@ const Leo = () => {
                 </div>
               </div>
             </div>
-            <div  data-aos-duration="3000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
+            <div  data-aos-duration="1000" data-aos="fade-down" className="d-flex align-items-center justify-content-center ">
               <div className="blue_card2 cp">
                 <div className="d-flex align-items-center mb-3 ">
                   <img src={leo} alt="leo" />

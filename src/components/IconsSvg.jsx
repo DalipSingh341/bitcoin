@@ -2,7 +2,7 @@ export function Instagram() {
   return (
     <div className="insta1">
       {" "}
-      <svg
+      <svg 
         width="27"
         height="27"
         viewBox="0 0 27 27"
@@ -125,87 +125,6 @@ export function Top_arrow() {
 }
 // export function Slate1() {
 //   return (
-//     <svg
-//       width="147"
-//       height="147"
-//       viewBox="0 0 147 147"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//       xmlns:xlink="http://www.w3.org/1999/xlink"
-//     >
-//       <rect x="17" y="14" width="113" height="123" fill="url(#pattern0)" />
-//       <defs>
-//         <pattern
-//           id="pattern0"
-//           patternContentUnits="objectBoundingBox"
-//           width="1"
-//           height="1"
-//         >
-//           <use
-//             xlink:href="#image0_1_171"
-//             transform="matrix(0.000450774 0 0 0.000414126 -0.221239 -0.178862)"
-//           />
-//         </pattern>
-//       </defs>
-//     </svg>
-//   );
-// }
-// export function Slate2() {
-//   return (
-//     <svg
-//       width="147"
-//       height="147"
-//       viewBox="0 0 147 147"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//       xmlns:xlink="http://www.w3.org/1999/xlink"
-//     >
-//       <g clip-path="url(#clip0_1_178)">
-//         <rect x="-2" y="-1" width="150" height="150" fill="url(#pattern0)" />
-//       </g>
-//       <defs>
-//         <pattern
-//           id="pattern0"
-//           patternContentUnits="objectBoundingBox"
-//           width="1"
-//           height="1"
-//         >
-//           <use xlink:href="#image0_1_178" transform="scale(0.000520833)" />
-//         </pattern>
-//         <clipPath id="clip0_1_178">
-//           <rect width="147" height="147" fill="white" />
-//         </clipPath>
-//       </defs>
-//     </svg>
-//   );
-// }
-// export function Slate3() {
-//   return (
-//     <svg
-//       width="147"
-//       height="147"
-//       viewBox="0 0 147 147"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//       xmlns:xlink="http://www.w3.org/1999/xlink"
-//     >
-//       <g clip-path="url(#clip0_1_185)">
-//         <rect x="-1" y="-2" width="150" height="150" fill="url(#pattern0)" />
-//       </g>
-//       <defs>
-//         <pattern
-//           id="pattern0"
-//           patternContentUnits="objectBoundingBox"
-//           width="1"
-//           height="1"
-//         >
-//           <use xlink:href="#image0_1_185" transform="scale(0.0003125)" />
-//         </pattern>
-//         <clipPath id="clip0_1_185">
-//           <rect width="147" height="147" fill="white" />
-//         </clipPath>
-//         <image id="image0_1_185" width="3200" height="3200" />
-//       </defs>
-//     </svg>
+   
 //   );
 // }

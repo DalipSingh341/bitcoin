@@ -50,7 +50,7 @@ const ThumbBoy = () => {
       </Modal>
       <Container className="py-4">
         <Row>
-          <Col data-aos-duration="3000" data-aos="fade-right" lg={7}>
+          <Col data-aos-duration="1000" data-aos="fade-right" lg={7}>
             <div className="d-flex flex-column flex-md-row py-3 py-md-5 gap-md-3">
               <img src={thumb1} alt="thumb1" />
               <div className="overflow-hidden mt-4 position-relative cp girl_1">
@@ -78,7 +78,7 @@ const ThumbBoy = () => {
             </div>
           </Col>
           <Col
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos="fade-left"
             lg={5}
             className="d-flex align-items-center justify-content-center"

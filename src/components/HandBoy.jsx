@@ -14,7 +14,7 @@ const HandBoy = () => {
           быстро и нам важно узнать ваше мнение.
         </p>
         <Row>
-          <Col data-aos-duration="3000" data-aos="fade-right"  md={6}>
+          <Col data-aos-duration="1000" data-aos="fade-right"  md={6}>
             <div className="pt-md-5">
               <input
                 type="text"
@@ -43,7 +43,7 @@ const HandBoy = () => {
               Отправить
             </Link>
           </Col>
-          <Col data-aos-duration="3000" data-aos="fade-left"  md={6} className="d-flex align-items-start">
+          <Col data-aos-duration="1000" data-aos="fade-left"  md={6} className="d-flex align-items-start">
             <div>
               <img className="w-100" src={handboy} alt="handboy" />
             </div>

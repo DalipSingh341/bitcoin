@@ -17,7 +17,7 @@ const HeroSection = () => {
             lg={7}
             xl={6}
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <h2 className="ff_open_sans fs_28 fw_400 fc_light_blue text-uppercase mb-0">
               Лучший проект

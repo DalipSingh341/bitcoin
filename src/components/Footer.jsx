@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos="fade-down"
             lg={6}
             className=" my-3"
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos="fade-down"
             lg={6}
             className="d-flex justify-content-between justify-lg-content-around my-3"
@@ -91,7 +91,7 @@ const Footer = () => {
           </Col>
         </Row>
         <p
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos="fade-up"
           className="ff_poppins fs_12 fw_400 fc_white mb-1 text-center py-2 py-md-5"
         >

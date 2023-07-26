@@ -9,7 +9,7 @@ const InvestCoinC = () => {
       <Container className="py-md-5">
         <Row className="py-2">
           <Col
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos="fade-right"
             lg={6}
             className="order-last order-lg-first py-2"
@@ -36,7 +36,7 @@ const InvestCoinC = () => {
             </div>
           </Col>
           <Col
-            data-aos-duration="3000" data-aos="fade-left"
+            data-aos-duration="1000" data-aos="fade-left"
             lg={6}
             className="order-first order-lg-last d-flex justify-content-center align-items-center py-2"
           >

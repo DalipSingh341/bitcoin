@@ -21,6 +21,7 @@ export default function SimpleSlider() {
     autoplaySpeed: 1200,
     arrows: false,
     autoplay: true,
+    pauseOnHover:false,
     speed:1000,
     responsive: [
       {

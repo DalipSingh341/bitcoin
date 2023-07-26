@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import react, { useEffect } from "react";
 import { Fragment } from "react";
 
 import ScrollButton from "./components/ScrollButton";
@@ -20,13 +20,21 @@ import ThumbBoy from "./components/ThumbBoy";
 import HandBoy from "./components/HandBoy";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Preloader from "./components/Preloader";
+
 function App() {
-   useEffect(() => {
-     AOS.init();
-   }, []);
+  
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+
   return (
     <>
+       
       <Fragment>
+        <Preloader/>
+     
         <div className="overflow-hidden">
           <div className="bg_nav ">
             <BitcoinNav />
@@ -42,7 +50,7 @@ function App() {
           <HandBoy />
           <Footer />
         </div>
-          <ScrollButton />
+        <ScrollButton />
       </Fragment>
     </>
   );

@@ -14,7 +14,31 @@
 }
 .ml_52 {
   margin-left: 52px;
+} 
+/* preloader */
+.z_index_1000{
+  z-index: 1000;
 }
+body{
+  overflow: hidden;
+}
+.animation_preloader {
+  animation: loder 4s linear 1;
+}
+@keyframes loder {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+ 
+}
+.perloaderback{
+  background-color:#252b42 ;
+
+}
+/* preloader */
 .hero_text2 {
   max-width: 766px;
   text-transform: uppercase !important;
@@ -185,8 +209,8 @@ color: yellow !important;
   background-size: 700px;
   background-repeat: no-repeat;
   background-position: 0%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
   /* 
   background: #2091f9;
   transition: all 200ms ease-in-out; */
@@ -195,7 +219,7 @@ color: yellow !important;
   background-position: 100%;
   color: #2091f9 !important;
 }
-.masterbtn2 {
+/* .masterbtn2 {
    color: #fff;
   border: 1px solid #2091f9;
   border-radius: 35px;
@@ -205,12 +229,10 @@ color: yellow !important;
   background-size: 700px;
   background-repeat: no-repeat;
   background-position: 0%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
-  /* 
-  background: #2091f9;
-  transition: all 200ms ease-in-out; */
-}
+  -webkit-transition:  200ms ease-in-out;
+  transition:  200ms ease-in-out;
+} */ 
+
 .masterbtn2:hover {
   background-position: 100%;
   color:white !important;
@@ -313,8 +335,8 @@ color: yellow !important;
   background-size: 1700px;
   background-repeat: no-repeat;
   background-position: 0%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
+  -webkit-transition:200ms ease-in-out;
+  transition:200ms ease-in-out;
 
   
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
@@ -439,32 +461,36 @@ input[type="checkbox"] {
     height: 2px;
     background: #252b42;
   }
-  .Singup_btn1 {
-    padding: 16px 40px;
-    border-radius: 35px;
-    background: var(--primary, #2091f9);
-  }
-  .Singup_btn2 {
-    padding: 16px 60px;
-    border-radius: 35px;
-    background: var(--text, #fff);
-  }
+ 
+ .masterbtn2 {
+   color: #fff;
+  border: 1px solid #2091f9;
+  border-radius: 35px;
+  padding: 19px 60px;
+  background-image: -webkit-linear-gradient(30deg, #2091f9 50%, transparent 50%);
+  background-image: linear-gradient(30deg, white 50%, transparent 50%);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition:  200ms ease-in-out;
+  transition:  200ms ease-in-out;
+}
 }
 @media (min-width: 576px) {
   .Singup_btn1 {
     padding: 16px 40px;
   }
-  .Singup_btn2 {
-    padding: 16px 50px;
-  }
+
 }
 @media (min-width: 768px) {
   .Singup_btn1 {
     padding: 16px 45px;
   }
-  .Singup_btn2 {
-    padding: 16px 65px;
-  }
+   .masterbtn2 {
+   
+  padding: 19px 65px;
+ 
+}
 }
 @media (min-width: 992px) {
   .ml_80 {
@@ -481,9 +507,10 @@ input[type="checkbox"] {
   .Singup_btn1 {
     padding: 16px 50px;
   }
-  .Singup_btn2 {
-    padding: 16px 75px;
-  }
+  .masterbtn2 {
+  padding: 19px 75px;
+
+}
 }
 
 
